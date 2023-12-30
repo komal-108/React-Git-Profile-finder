@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 export default function HomePage() {
   const [inputValue, setInputValue] = useState("");
   const [data, setData] = useState([]);
@@ -30,7 +30,7 @@ export default function HomePage() {
             {data.map((user) => {
               return (
                 <div className="user_box">
-                  <img src={user.avatar_url} className="user_image"></img>
+                  <img src={user.avatar_url} alt="/" className="user_image"></img>
                   <h2>{user.login}</h2>
                   <p>{user.node_id}</p>
                   <a href={user.html_url}>
