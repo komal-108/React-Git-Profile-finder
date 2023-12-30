@@ -32,7 +32,7 @@ export default function HomePage() {
                 <div className="user_box">
                   <img src={user.avatar_url} alt="/" className="user_image"></img>
                   <h2>{user.login}</h2>
-                  <p>{user.node_id}</p>
+                  <p>score:{user.score}</p>
                   <a href={user.html_url}>
                     <button className="search_button button">
                       View Profile

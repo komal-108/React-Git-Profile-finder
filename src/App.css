@@ -75,8 +75,9 @@ body{
 } */
 .user_container{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
+  gap: 32px;
   width: 100%;
 }
 .user_box{
